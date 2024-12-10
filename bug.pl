@@ -1,0 +1,1 @@
+my @array = (1 .. 10);for (my $i = 0; $i < @array; $i++) {    print "$array[$i]\n";}This code will produce a warning because the array index starts from 0, but the loop starts from 1. The correct code should be:my @array = (1 .. 10);for (my $i = 0; $i < @array; $i++) {    print "$array[$i]\n";}
