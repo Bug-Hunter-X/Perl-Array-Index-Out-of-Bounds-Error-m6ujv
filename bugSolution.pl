@@ -1,0 +1,1 @@
+my @array = (1 .. 10);for my $element (@array) {    print "$element\n";}This code iterates over the array using a foreach loop, which avoids the need to explicitly manage array indices. This makes the code more concise and less prone to errors.
